@@ -29,5 +29,7 @@ func main() {
 			os.Exit(1)
 		}
 		fmt.Printf("%s", b)
+		st := resp.Status
+		fmt.Printf("\nHTTP Status code: %s\n", st)
 	}
 }
